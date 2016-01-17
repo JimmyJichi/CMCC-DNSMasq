@@ -18,7 +18,7 @@
 1. 安装DNSMasq（如果已有可以跳过）  
 Debian, Ubuntu    
         ```sudo apt-get install dnsmasq```   
-RedHat. CentOS    
+RedHat, CentOS    
         ```sudo yum install dnsmasq```
 2. 将```dnsmasq.conf```替换```/etc/dnsmasq.conf```
 3. 重启DNSMasq
