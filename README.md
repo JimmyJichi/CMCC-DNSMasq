@@ -20,7 +20,7 @@ Debian, Ubuntu
         ```sudo apt-get install dnsmasq```   
 RedHat, CentOS    
         ```sudo yum install dnsmasq```
-2. 将```dnsmasq.conf```替换```/etc/dnsmasq.conf```
+2. 将```dnsmasq.conf```替换```/etc/dnsmasq.conf```    
+3. 将```listen-address```改为```你自己的IP地址,127.0.0.1```（如果你的VPS还有内网IP，也要加上。如果搭建在本地就不需要了）
 3. 重启DNSMasq
         ```service dnsmasq restart```
-
