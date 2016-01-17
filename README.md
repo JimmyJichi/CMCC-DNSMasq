@@ -15,13 +15,12 @@
 10. 目前所有.tw的网站都会被解析到反向代理，原因你懂的。
 
 ##使用
-1. 安装DNSMasq（如果已有可以跳过）
-Debian, Ubuntu
-        sudo apt-get install dnsmasq
-RedHat. CentOS
-        sudo yum install dnsmasq
+1. 安装DNSMasq（如果已有可以跳过）  
+Debian, Ubuntu    
+        ```sudo apt-get install dnsmasq```
+RedHat. CentOS    
+        ```sudo yum install dnsmasq```
 2. 将```dnsmasq.conf```替换```/etc/dnsmasq.conf```
 3. 重启DNSMasq
-        service dnsmasq restart
-
+        ```service dnsmasq restart```
 
