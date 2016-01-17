@@ -20,6 +20,8 @@ Debian, Ubuntu
         sudo apt-get install dnsmasq
 RedHat. CentOS
         sudo yum install dnsmasq
-2. 将```dnsmasq.conf```放入```/etc/dnsmasq.d/```
+2. 将```dnsmasq.conf```替换```/etc/dnsmasq.conf```
 3. 重启DNSMasq
         service dnsmasq restart
+
+
