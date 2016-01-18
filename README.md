@@ -3,7 +3,7 @@
 * 139.196.59.110
 
 ##对移动网络作出的优化
-1. 上游服务器为DNSPod Public DNS。
+1. 上游服务器为~~DNSPod Public DNS~~。（已改为114DNS）
 2. 将 Akamai CDN 解析到香港节点，可以加速 App Store 下载。（香港节点只有移动不绕路，所以，电信联通还是用 V2EX DNS 比较好）
 3. 为 PSN, Xbox Live, 任天堂作出优化，加快更新、下载游戏以及更新系统的速度。同时还对EA、育碧、Origin、Steam、Rockstar 的服务器进行了优化。
 4. 绕过移动自带的墙中墙（参见 /t/250906）
