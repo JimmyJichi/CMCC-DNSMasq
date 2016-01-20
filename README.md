@@ -14,13 +14,15 @@
 9. 将Dropbox等网站解析到反向代理。
 10. 目前所有.tw的网站都会被解析到反向代理，原因你懂的。
 
+11.解决NSFW（你懂的）网站被reset的问题
+
 ##使用
 1. 安装DNSMasq（如果已有可以跳过）  
 Debian, Ubuntu    
         ```sudo apt-get install dnsmasq```   
 RedHat, CentOS    
         ```sudo yum install dnsmasq```
-2. 将```dnsmasq.conf```替换```/etc/dnsmasq.conf```
+2. 将```dnsmasq.conf```替换```/etc/dnsmasq.conf```    
+3. 将```listen-address```改为```你自己的IP地址,127.0.0.1```（如果你的VPS还有内网IP，也要加上。如果搭建在本地就不需要了）
 3. 重启DNSMasq
         ```service dnsmasq restart```
-
