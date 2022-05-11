@@ -1,3 +1,4 @@
+# Abandoned - No Longer Functional
 # CMCC-DNSMasq
 ##效果测试
 * 139.196.59.110
